@@ -1,0 +1,119 @@
+;Windows-1251 Cyrillic Russian
+[EN]
+;Embedded in the program, but you can place a different version of English phrases in this section
+
+[RU]
+ButtonYes=&Да
+ButtonNo=&Нет
+ButtonOK=Да&лее
+ButtonYesToAll=&Всегда
+ButtonCancel=Отменить
+ButtonClose=&Закрыть
+ButtonClear=&Очистить
+ButtonLoad=&Загрузить
+ButtonSave=&Сохранить
+ButtonRead=&Прочитать
+ButtonWrite=&Записать
+ButtonCompare=&Сравнить
+ButtonBlankCheck=Пр. &чистоту
+ButtonMerge=&Объединить
+ButtonFill=&Заполнить
+;
+LabelImpulseDuration=Длительность импульса (мкс)
+LabelIPDutyCycle=Скважность
+LabelNumberOfRepeats=Количество повторений
+LabelBufferRange=Границы буфера:
+LabelROMRange=Границы ПЗУ:
+LabelProgrammingAlgorithms=Алгоритмы программирования:
+LabelStartAddress=Начало
+LabelEndAddress=Конец
+LabelPattern=Значение
+LabelCurrentAddress=Текущий адрес:
+;
+MessageAbsentConfigurationFile=Отсутсвует конфигурационный файл:%r%r%s
+MessageNotSetID=Не задан параметр ID для серии микросхем: %s
+MessageNotSetCOMMENT=Не задан параметр COMMENT для серии микросхем: %s
+MessageAbsentAlgorithmProgramming=Не определено ни одного алгоритма программирования
+MessageMemoryAllocationError=Недостаточно памяти для работы программы
+MessageAbsentHelpFile=Отсутствует файл помощи:
+MessageSaveBufferError=Ошибка в процессе сохранения буфера в:%r%s
+MessageSaveBufferConfirm=Содержимое буфера изменилось!%r%rСохранить изменения?
+MessageFileExists=Файл %s уже существует!%r%rПерезаписать?
+MessageLoadBufferError=Ошибка в процессе загрузки буфера из:
+MessageCreateBufferError=Ошибка создания буфера!
+MessageCancelOperation=Прервать операцию?
+MessageROMNotBlank=По адресу %.8xh содержится информация: %.2xh%r%rПопробовать перезаписать?
+MessageROMWriteError=Ошибка записи по адресу: %.8xh Прочитано: %.2xh Oжидалось: %.2xh%r%rПродолжить операцию?
+MessageContinueOperation=Вы уверены, что хотите продолжить выполнение операции?'
+MessageMismatchBoundaries=Значения границ адресного пространства ПЗУ выходят за пределы адресного пространства буфера!
+MessageRemoveROMChip=Извлеките микросхему ПЗУ из программатора!
+;
+MenuListMicrochipsEmpty=Список микросхем пустой
+MenuExit=Вы&ход
+MenuBuffer=&Буфер
+MenuLoadBuffer=&Загрузить
+MenuSaveBuffer=&Сохранить
+MenuSaveBufferAs=Сохранить &как...
+MenuFillBuffer=З&аполнить
+MenuSelectROMChip=&Выбор микросхемы
+MenuWorkingWithROMChip=&Работа с микросхемой
+MenuReadROMChip=&Прочитать
+MenuWriteROMChip=&Записать
+MenuCompareROMChip=&Сравнить
+MenuBlankCheckROMChip=Проверить &чистоту
+MenuMergeROMChip=&Объединить
+MenuViewHistory=Отобразить &историю
+MenuHelp=&Помощь
+MenuDisclaimer=&Дисклeймер
+MenuFAQ=&ЧаВо
+MenuTest=&Тест
+MenuAbout=&О программе...
+;
+TextROMSize=Размер ПЗУ:
+TextByte=байт
+TextNibble=полубайт
+;
+TextDeviceNotConnected=Программатор не подключен
+TextDeviceConnected=Программатор подключен
+;
+TextHistoryROMReadInterrupt=Чтение прервано.
+TextHistoryROMReadEnd=Чтение завершено.
+TextHistoryROMWriteInterrupt=Запись прервана.
+TextHistoryROMWriteEnd=Запись завершена.
+TextHistoryROMWriteError=Запись буфера в ПЗУ прошла c ошибками.
+TextHistoryROMWriteOK=Запись буфера в ПЗУ прошла успешно.
+TextHistoryROMCompareInterrupt=Сравнение прервано.
+TextHistoryROMcompareEnd=Сравнение завершено.
+TextHistoryROMCompareOK=Содержимое ПЗУ идентично содержимому буфера.
+TextHistoryROMCompareError=Содержимое ПЗУ отлично от содержимого буфера.
+TextHistoryROMBlankCheckInterrupt=Проверка прервана.
+TextHistoryROMBlankCheckEnd=Проверка чистоты завершена.
+TextHistoryROMBlankCheckOK=ПЗУ не содержит данных.
+TextHistoryROMBlankCheckError=В ПЗУ находятся данные.
+TextHistoryROMMergeInterrupt=Проверка возможности объединения прервана.
+TextHistoryROMMergeEnd=Проверка возможности объединения завершена.
+TextHistoryROMMergeOK=Содержимое буфера возможно прошить в ПЗУ.
+TextHistoryROMMergeError=Содержимое буфера невозможно прошить в ПЗУ.
+TextHistoryBuffer=Буфер:
+TextHistoryROM=ПЗУ:
+;
+TitleSaveBuffer=Сохранение
+TitleLoadBuffer=Загрузка
+TitleFillBuffer=Заполнение
+TitleAbout=О программе
+TitleHelp=Помощь
+TitleWarning=Предупреждение
+TitleError=Ошибка
+TitleInformation=Информация
+TitleConfirmation=Подтверждение
+TitleTest=Тестирование
+TitleHistory=История
+;
+TitleProgressROMRead=Чтение
+TitleProgressROMWrite=Запись
+TitleProgressROMCompare=Сравнение
+TitleProgressROMBlankCheck=Проверка
+TitleProgressROMMerge=Объединение
+;
+HintProgrammingAlgorithmEdit=Дважды щелкните левой кнопкой мыши или нажмите Ctrl-E на клавиатуре, чтобы отредактировать
+;Эта строка обязательна !!! This line is required !!!
