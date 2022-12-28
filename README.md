@@ -12,6 +12,7 @@ Current versions:
 * Hardware v2.3
 * Software v2.0
 * Firmware v1.1
+* Case v1.0
 
 Unfortunately at the moment only a binary version of the software for Windows OS is available.
 
@@ -35,6 +36,8 @@ There was originally no clear license terms defined. I asked at least one of ori
 of the schematic; he was not against me opensourcing the design. I am not a fan of this legal
 stuff; let's consider it public domain. Any improvements are welcome; i will gladly accept them
 into the repository.
+
+3D printed case design is licensed under Creative Commons license: https://www.thingiverse.com/thing:2911557
 
 # Contacts
 
